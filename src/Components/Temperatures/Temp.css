@@ -1,0 +1,15 @@
+.temp-container {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+.temp-vars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0.5rem;
+}
+
+.temp-title {
+    color: red;
+}

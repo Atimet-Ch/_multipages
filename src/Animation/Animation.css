@@ -1,0 +1,45 @@
+#field {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
+  }
+  
+  #ball {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    animation: rotateA 5s linear infinite;
+    z-index: 1;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotateA {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  .btn{
+    margin-right: 0.5rem;
+  }
+
+  .field-container{
+    background-image: url("./public/wood.jpg");
+    background-size: cover;
+  }

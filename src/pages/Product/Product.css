@@ -1,0 +1,23 @@
+.product-container{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+    box-sizing: 0 0 0.25rem gray;
+    text-align: center;
+}
+
+.products-items-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    overflow-y: auto;
+    overflow-x: hidden; ;
+    height: 560px;
+    align-items: start;
+}
+
+.card-body {
+    min-height: 200px; /* ปรับความสูงตามที่คุณต้องการ */
+  }
+  
